@@ -1,0 +1,17 @@
+.env
+*.pyc
+__pycache__/
+.audit/
+*.log
+telegram-bot/.token
+telegram-bot/.ngrok_token
+telegram-bot/.tunnel_url
+telegram-bot/.panel_link
+telegram-bot/.pending.json
+telegram-bot/.stats.json
+telegram-bot/.user_limits.json
+telegram-bot/.user_msgs.json
+telegram-bot/.alerts.json
+telegram-bot/history/
+telegram-bot/.owner
+telegram-bot/.approved

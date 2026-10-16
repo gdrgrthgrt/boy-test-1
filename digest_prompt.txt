@@ -1,0 +1,1 @@
+Generate a concise daily Persian forex digest using live web information. Include major economic-calendar events, important FX news, and short market implications. Never invent prices or figures. Clearly distinguish verified facts from analysis and include source names/URLs when available. End with a brief informational-not-financial-advice disclaimer.

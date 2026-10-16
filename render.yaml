@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: fx-telegram-bot
+    runtime: python
+    plan: free
+    healthCheckPath: /health
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: OWNER_ID
+        sync: false
+      - key: PANEL_ACCESS_TOKEN
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-2.5-flash
+      - key: GEMINI_SEARCH
+        value: "true"
